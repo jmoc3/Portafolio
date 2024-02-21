@@ -68,7 +68,7 @@ export default function LeftSide(){
       <div className="personalPitch flex flex-col gap-5 ">
         <h2 className="name text-6xl" data-value="Jose Orejarena" >Jose Orejarena</h2>
         <h4 className="profession text-3xl" data-value="Data Scientist">Data Scientist</h4>
-        <span className="mini-description text-lg" data-value="Desarrollo soluciones tecnologicas basadas en datos y todo lo que estas puedan comunicar.">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &#34Hombre que resulve&#34.</span>
+        <span className="mini-description text-lg" data-value="Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resulve&quot;.">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resulve&quot;.</span>
       </div>
       <div className="indexs flex flex-col gap-5">
       <a className="index-1 in flex items-center gap-3" href="#description">
