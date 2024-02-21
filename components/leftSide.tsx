@@ -66,13 +66,13 @@ export default function LeftSide(){
   return (
     <div className="leftSide sticky top-5 z-0 flex flex-col justify-between w-96 h-3/4vh pt-24 select-none">
       <div className="personalPitch flex flex-col gap-5 ">
-        <h2 className="name text-6xl" data-value="Jose Orejarena" >Jose Orejarena</h2>
-        <h4 className="profession text-3xl" data-value="Data Scientist">Data Scientist</h4>
-        <span className="mini-description text-lg" data-value="Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resulve&quot;.">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resulve&quot;.</span>
+        <h2 className="name text-6xl text-yellow-200" data-value="Jose Orejarena" >Jose Orejarena</h2>
+        <h4 className="profession text-3xl text-amber-600" data-value="Software Developer">Software Developer</h4>
+        <span className="mini-description text-lg">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resuelve&quot;.</span>
       </div>
       <div className="indexs flex flex-col gap-5">
       <a className="index-1 in flex items-center gap-3" href="#description">
-          <div className="lines flex">
+          <div className="lines block">
             <span>-</span>
             <span>-</span>
             <span>-</span>
@@ -80,7 +80,7 @@ export default function LeftSide(){
           <span className="text-xl">Sobre Mi</span>
         </a>
         <a className="index-2 flex items-center gap-3" href="#projects">
-          <div className="lines flex">
+          <div className="lines block">
             <span>-</span>
             <span>-</span>
             <span>-</span>
@@ -88,7 +88,7 @@ export default function LeftSide(){
           <span className="text-xl">Proyectos</span>
         </a>
         <a className="index-3 flex items-center gap-3" href="#tecnologies">
-          <div className="lines flex">
+          <div className="lines block">
             <span>-</span>
             <span>-</span>
             <span>-</span>
