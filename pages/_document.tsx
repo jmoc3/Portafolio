@@ -4,7 +4,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <title>Jose Orejarena</title>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <body className="bg-neutral-900 ">
         <Main />
         <NextScript />
       </body>

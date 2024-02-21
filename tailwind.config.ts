@@ -13,6 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      height: {
+        '3/4vh': '82vh',
+      },
+      keyframes:{
+        rotate: {
+          '0%, 100%': { transform : 'rotate(0 deg)'},
+          '50%': { transform : 'rotate(360 deg)'},
+        },
+      },
+      animation:{
+        "spin-slow":'rotate 20s infinite'
+      }
     },
   },
   plugins: [],
