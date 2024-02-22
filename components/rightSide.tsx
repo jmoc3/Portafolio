@@ -24,7 +24,7 @@ export default function RightSide(){
   },[control,inView]);
 
   return(
-    <motion.div className="rightSide z-10 pb-24 select-none flex flex-col items-center"  ref={ref} variants={boxVariant} initial="hidden" animate={control}>
+    <motion.div className="rightSide z-10 pb-24 select-none flex flex-col items-center s8:px-32"  ref={ref} variants={boxVariant} initial="hidden" animate={control}>
         
         <div className="description 3xl:text-base flex flex-col lg:w-4/5 xl:w-full gap-5 select-none md:text-xs pt-32" id='description'>
           <p className="p1">Por lo general siempre he sido una persona muy curiosa, especialmente por aquellas cosas que me parecen muy impresionantes al ser tan organizadas y eficientes como los son las matemáticas y la programación.</p>
@@ -43,9 +43,9 @@ export default function RightSide(){
 
       </div>
 
-      <div className="techs grid grid-rows-4 grid-flow-col items-center justify-center md:gap-x-6 xl:gap-x-10 p-16" id='tecnologies'>
+      <div className="techs grid grid-rows-4 grid-flow-col items-center justify-center gap-x-10 p-16" id='tecnologies'>
         <Icon link='https://nextjs.org/' icon='next' color='zinc' >
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className="next-icon lg:w-7 2xl:w-10" fill="currentColor"> 
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48" className="next-icon md:w-7 2xl:w-10" fill="currentColor"> 
             <path d="M20,23.474V31.5c0,0.828-0.672,1.5-1.5,1.5S17,32.328,17,31.5v-13c0-0.659,0.431-1.241,1.062-1.435 c0.627-0.19,1.314,0.049,1.682,0.596l0.249,0.37L20,18l15.234,22.546C40.524,36.947,44,30.88,44,24c0-11.046-8.954-20-20-20 S4,12.954,4,24s8.954,20,20,20c3.082,0,5.99-0.718,8.597-1.963L20,23.474z M28,16.5c0-0.828,0.672-1.5,1.5-1.5s1.5,0.672,1.5,1.5 v12.79l-3-4.304V16.5z"></path>
           </svg>
         </Icon>

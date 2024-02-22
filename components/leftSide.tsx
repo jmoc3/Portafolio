@@ -66,18 +66,18 @@ export default function LeftSide(){
 
 
   return (
-    <div className="leftSide xl:sticky top-5 z-0 flex flex-col justify-between w-96 h-3/4vh pt-24 select-none">
-      <div className="personalPitch flex flex-col gap-5 ">
-        <pre className="name md:text-4xl 2xl:text-6xl text-yellow-200 font-semibold w-fit" data-value="Jose Orejarena" >Jose Orejarena</pre>
-        <h4 className="profession md:text-lg 2xl:text-3xl text-amber-600 w-fit" data-value="Software Developer">Software Developer</h4>
-        <span className="mini-description md:text-xs 2xl:text-lg">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resuelve&quot;.</span>
+    <div className="leftSide xl:sticky top-5 z-0 flex md:flex-col  md:justify-between w-96 md:h-3/4vh pt-24 select-none s8:pl-32 s8:pr-8 s8:gap-24 md:gap-5">
+      <div className="personalPitch flex flex-col s8:justify-between md:gap-5 ">
+        <pre className="name s8:text-3xl md:text-4xl 2xl:text-6xl text-yellow-200 font-semibold w-fit" data-value="Jose Orejarena" >Jose Orejarena</pre>
+        <h4 className="profession s8:text-base md:text-lg 2xl:text-3xl text-amber-600 w-fit" data-value="Software Developer">Software Developer</h4>
+        <span className="mini-description s8:text-xs md:text-xs 2xl:text-lg">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resuelve&quot;.</span>
       </div>
-      <div className="indexs xl:flex xl:flex-col gap-5 lg:hidden">
+      <div className="indexs xl:flex xl:flex-col gap-5 s8:hidden">
         <a href="#description" className="index-1 in md:text-sm 2xl:text-xl">* Sobre Mi</a>
         <a href="#projects" className="index-2 md:text-sm 2xl:text-xl">* Proyectos</a>
         <a href="#tecnologies" className="index-3 md:text-sm 2xl:text-xl">* Tecnologias</a>
       </div>
-      <div className="contact flex gap-5 items-center">
+      <div className="contact flex s8:flex-col md:flex-row gap-5 md:items-center">
         <a href="https://github.com/jmoc3" target="_blank" className="h-10 md:w-7 xl:w-10 hover:scale-125 hover:text-white ease-in-out duration-1000" ><BiLogoGithub className="h-full w-full" /></a>
 
         <a href="https://www.linkedin.com/in/jose-orejarena/"  className="h-10 md:w-7 xl:w-10 hover:scale-125 hover:text-blue-400 ease-in-oute duration-1000" target="_blank" ><BiLogoLinkedinSquare className="h-full w-full"/></a>

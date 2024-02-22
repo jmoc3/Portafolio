@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
       <main  className={`${jetbrains.className} antialiased xl:flex xl:flex-row gap-56 justify-center md:px-36 xl:px-56  text-gray-200 w-inherit h-inherit`} >
-        <div className="blob absolute aspect-square h-56 -translate-y-1/2 -translate-x-1/2 rounded bg-gradient-to-r from-neutral-200 to-orange-500  blur-3xl opacity-10" ></div>
+        <div className="blob absolute aspect-square h-56 -translate-y-1/2 -translate-x-1/2 rounded bg-gradient-to-r from-neutral-200 to-orange-500  blur-3xl opacity-10 s8:px-16" ></div>
         <LeftSide></LeftSide>
         <RighSide></RighSide>
       </main>      

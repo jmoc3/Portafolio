@@ -17,6 +17,7 @@ const config: Config = {
         '3/4vh': '82vh',
       },
       screens:{
+        's8':'360px',
         '3xl':'1920px'
       }
     },
