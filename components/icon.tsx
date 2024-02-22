@@ -10,17 +10,17 @@ const boxVariant = {
 export function Icon({link, icon, color, children}:any){
   
   const colorVariants: { [key: string]: string }  = {
-    blue: 'hover:text-blue-400 hover:scale-125',
-    red: 'hover:text-red-400 hover:scale-125',
-    amber: 'hover:text-amber-400 hover:scale-125',
-    zinc: 'hover:text-zinc-400 hover:scale-125',
-    cyan: 'hover:text-cyan-400 hover:scale-125',
-    indigo: 'hover:text-indigo-400 hover:scale-125',
-    green: 'hover:text-green-400 hover:scale-125',
-    yellow: 'hover:text-yellow-400 hover:scale-125',
-    sky: 'hover:text-sky-400 hover:scale-125',
-    violet: 'hover:text-violet-400 hover:scale-125',
-    orange: 'hover:text-orange-400 hover:scale-125'
+    blue: 's8:text-blue-400 md:text-current md:hover:text-blue-400 hover:scale-125',
+    red: 's8:text-red-400 md:text-current md:hover:text-red-400 hover:scale-125',
+    amber: 's8:text-amber-400 md:text-current md:hover:text-amber-400 hover:scale-125',
+    zinc: 's8:text-zinc-400 md:text-current md:hover:text-zinc-400 hover:scale-125',
+    cyan: 's8:text-cyan-400 md:text-current md:hover:text-cyan-400 hover:scale-125',
+    indigo: 's8:text-indigo-400 md:text-current md:hover:text-indigo-400 hover:scale-125',
+    green: 's8:text-green-400 md:text-current md:hover:text-green-400 hover:scale-125',
+    yellow: 's8:text-yellow-400 md:text-current md:hover:text-yellow-400 hover:scale-125',
+    sky: 's8:text-sky-400 md:text-current md:hover:text-sky-400 hover:scale-125',
+    violet: 's8:text-violet-400 md:text-current md:hover:text-violet-400 hover:scale-125',
+    orange: 's8:text-orange-400 md:text-current md:hover:text-orange-400 hover:scale-125'
   }
   
 
