@@ -67,7 +67,7 @@ export default function LeftSide(){
 
   return (
     <div className="leftSide xl:sticky top-5 z-0 flex md:flex-col  md:justify-between w-96 md:h-3/4vh pt-24 select-none s8:pl-32 s8:pr-8 s8:gap-24 md:gap-5">
-      <div className="personalPitch flex flex-col s8:justify-between md:gap-5 ">
+      <div className="personalPitch flex flex-col s8:justify-between gap-10 ">
         <pre className="name  s8:text-4xl 2xl:text-6xl text-yellow-200 font-semibold w-fit" data-value="Jose Orejarena" >Jose Orejarena</pre>
         <h4 className="profession s8:text-lg 2xl:text-3xl text-amber-600 w-fit" data-value="Software Developer">Software Developer</h4>
         <span className="mini-description s8:text-base md:text-xs 2xl:text-lg">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resuelve&quot;.</span>
