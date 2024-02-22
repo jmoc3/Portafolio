@@ -23,16 +23,16 @@ export function Card({date,name,theme,description,repo}:any){
   return (
     <motion.div className="box" ref={ref} variants={boxVariant} initial="hidden" animate={control}>
     <Atropos className="my-atropos" activeOffset={40} shadowScale={1.05}>
-      <div className="card flex justify-between" data-atropos-offset='15' data-atropos-opacity="0.5;1">
-        <div className="left text-orange-300	">{date}</div>
-        <div className="right w-8/12">
-          <div className="project_name flex flex-col gap-2 pb-4">
+      <div className="card 2xl:flex 2xl:flex-col 3xl:flex-row justify-between " data-atropos-offset='15' data-atropos-opacity="0.5;1">
+        <div className="left text-orange-300 2xl:text-xl md:text-md">{date}</div>
+        <div className="right 3xl:w-8/12">
+          <div className="project_name flex flex-col gap-2 pb-4 ">
             <div className="title flex items-center justify-between">
-              <h2 className="name text-lg">{name}</h2><a href={repo} target="_blank"><GoEye className="text-xl"/></a>
+              <h2 className="name 2xl:text-xl md:text-md ">{name}</h2><a href={repo} target="_blank"><GoEye className="text-xl"/></a>
             </div>
-            <span className="theme text-xs text-blue-300">{theme}</span>
+            <span className="theme 2xl:text-lg md:text-sm text-blue-300">{theme}</span>
           </div>
-          <p className="project_description text-sm">{description}</p>
+          <p className="project_description 2xl:text-sm md:text-xs">{description}</p>
         </div>
       </div>
     </Atropos>

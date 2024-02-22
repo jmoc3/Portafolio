@@ -9,10 +9,6 @@ const jetbrains = JetBrains_Mono({subsets:['latin']})
 
 export default function Home() {
 
-  function telepaty(event:any){
-
-    
-  } 
   useEffect(()=>{
 
     const blur = document.querySelector('.blob') as HTMLElement
@@ -30,13 +26,10 @@ export default function Home() {
   })
 
   return (
-    <div className="layout">
-      <main  className={`${jetbrains.className} antialiased flex gap-56 px-56  text-gray-200 w-inherit h-inherit`} >
-        <div className="blob absolute aspect-square h-56 -translate-y-1/2 -translate-x-1/2 rounded bg-gradient-to-r from-neutral-200 to-orange-500 animate-[rotate 20s infinite] blur-3xl opacity-10" ></div>
+      <main  className={`${jetbrains.className} antialiased xl:flex xl:flex-row gap-56 justify-center md:px-36 xl:px-56  text-gray-200 w-inherit h-inherit`} >
+        <div className="blob absolute aspect-square h-56 -translate-y-1/2 -translate-x-1/2 rounded bg-gradient-to-r from-neutral-200 to-orange-500  blur-3xl opacity-10" ></div>
         <LeftSide></LeftSide>
         <RighSide></RighSide>
-      </main>
-    </div>
-      
+      </main>      
   );
 }

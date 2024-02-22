@@ -11,8 +11,6 @@ html{
 body{
   margin: 0;
   padding: 0;
-  width: inherit;
-  height: inherit;
 }
 
 .leftSide{
@@ -28,6 +26,6 @@ body{
 }
 
 .in{
-  transform: translateX(20%) scale(1.3);
+  transform: translateX(20%) scale(1.2);
   color: rgb(230, 135, 62);
 }
