@@ -13,13 +13,7 @@ body{
   padding: 0;
 }
 
-.leftSide{
-  width: 50rem;
-}
 
-.rightSide{
-  width: 56rem;
-}
 
 [class*="index"]{
   transition: .2s ease-in-out;

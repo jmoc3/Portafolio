@@ -1,13 +1,21 @@
 import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from "react";
+import React from 'react';
+
+type IconProps = {
+  link: string,
+  icon: string,
+  color: string,
+  children: React.ReactNode
+}
 
 const boxVariant = {
   visible:{opacity:1, x: 0 , transition:{duration:3}},
   hidden: {opacity:0, x:100}
 }
 
-export function Icon({link, icon, color, children}:any){
+export function Icon({link, icon, color, children}:IconProps):JSX.Element{
   
   const colorVariants: { [key: string]: string }  = {
     blue: 's8:text-blue-400 md:text-current md:hover:text-blue-400 hover:scale-125',

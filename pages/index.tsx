@@ -3,11 +3,11 @@
 import { JetBrains_Mono } from 'next/font/google'
 import LeftSide from '@/components/leftSide';
 import RighSide from '@/components/rightSide';
-import { use, useEffect } from 'react';
+import { useEffect } from 'react';
 
 const jetbrains = JetBrains_Mono({subsets:['latin']})
 
-export default function Home() {
+export default function Home():JSX.Element {
 
   useEffect(()=>{
 

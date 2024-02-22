@@ -4,12 +4,20 @@ import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from "react";
 
+type CardProps = {
+  date:string,
+  name:string,
+  theme:string,
+  description:string,
+  repo:string,
+}
+
 const boxVariant = {
   visible:{opacity:1, transition:{duration:2}},
   hidden: {opacity:0}
 }
 
-export function Card({date,name,theme,description,repo}:any){
+export function Card({date,name,theme,description,repo}:CardProps):JSX.Element{
 
   const control = useAnimation()
   const [ref, inView] = useInView()
