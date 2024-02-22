@@ -73,7 +73,7 @@ export default function LeftSide(){
         <span className="mini-description md:text-xs 2xl:text-lg">Desarrollo soluciones tecnologicas a problema cotidianos y no tan cotidianos en el son de ser un &quot;Hombre que resuelve&quot;.</span>
       </div>
       <div className="indexs xl:flex xl:flex-col gap-5 lg:hidden">
-        <a href="#description" className="index-1 md:text-sm 2xl:text-xl">* Sobre Mi</a>
+        <a href="#description" className="index-1 in md:text-sm 2xl:text-xl">* Sobre Mi</a>
         <a href="#projects" className="index-2 md:text-sm 2xl:text-xl">* Proyectos</a>
         <a href="#tecnologies" className="index-3 md:text-sm 2xl:text-xl">* Tecnologias</a>
       </div>
