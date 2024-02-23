@@ -62,7 +62,7 @@ export default function LeftSide():JSX.Element{
 
 
   return (
-    <div className="leftSide xl:sticky top-5 z-0 flex md:flex-col  md:justify-between md:w-full md:h-3/4vh pt-24 select-none s8:pl-32 s8:pr-8 s8:gap-24 md:gap-5">
+    <div className="leftSide xl:sticky top-5 z-0 flex md:flex-col  md:justify-between s8:w-full s8:w-[34rem] md:w-full md:h-3/4vh pt-24 select-none s8:gap-24 md:gap-5">
       <div className="personalPitch flex flex-col s8:justify-between gap-10 ">
         <pre className="name  s8:text-4xl 2xl:text-6xl text-yellow-200 font-semibold w-fit" data-value="Jose Orejarena" >Jose Orejarena</pre>
         <h4 className="profession s8:text-lg 2xl:text-3xl text-amber-600 w-fit" data-value="Software Developer">Software Developer</h4>
