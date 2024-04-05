@@ -47,9 +47,9 @@ export function CardComponent({date,name,theme,description,repo,tec}:CardProps):
 
           <div className="flex flex-wrap gap-3 overflow-hidden z-10">
             {
-              tec.split(',').map(e=>(
+              tec.split(',').map((e,i)=>(
 
-              <Button className="text-tiny text-white border-blue-200  p-4 w-fit " variant="bordered" radius="lg">
+              <Button key={i} className="text-tiny text-white border-blue-200  p-4 w-fit " variant="bordered" radius="lg">
                 {e}
               </Button>
               ))
