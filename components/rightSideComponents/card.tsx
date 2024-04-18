@@ -3,7 +3,7 @@ import Atropos from 'atropos/react';
 import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from "react";
-import {Card, CardFooter, Button, CardBody} from "@nextui-org/react";
+import {Card, Button, CardBody} from "@nextui-org/react";
 
 type CardProps = {
   date:string,

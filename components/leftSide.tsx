@@ -18,7 +18,7 @@ export default function LeftSide():JSX.Element{
         about.classList.add('in')
         proyects.classList.remove('in')
         tecnologies.classList.remove('in')
-      } else if (scrollPercent>75){
+      } else if (scrollPercent>85){
         tecnologies.classList.add('in')
         about.classList.remove('in')
         proyects.classList.remove('in')
