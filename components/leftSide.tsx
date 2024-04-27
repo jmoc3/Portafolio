@@ -14,7 +14,7 @@ export default function LeftSide():JSX.Element{
       const proyects = document.querySelector('.index-2') as HTMLElement
       const tecnologies = document.querySelector('.index-3') as HTMLElement
 
-      if (scrollPercent<15){
+      if (scrollPercent<10){
         about.classList.add('in')
         proyects.classList.remove('in')
         tecnologies.classList.remove('in')
@@ -76,9 +76,11 @@ export default function LeftSide():JSX.Element{
       <div className="contact flex s8:flex-col md:flex-row gap-5 md:items-center">
         <a href="https://github.com/jmoc3" target="_blank" className="h-10 md:w-7 xl:w-10 hover:scale-125 hover:text-white ease-in-out duration-1000" ><BiLogoGithub className="h-full w-full" /></a>
 
-        <a href="https://www.linkedin.com/in/jose-orejarena/"  className="h-10 md:w-7 xl:w-10 hover:scale-125 hover:text-blue-400 ease-in-oute duration-1000" target="_blank" ><BiLogoLinkedinSquare className="h-full w-full"/></a>
+        <a href="https://www.linkedin.com/in/jose-orejarena/"  className="h-10 md:w-7 xl:w-10 hover:scale-125 hover:text-blue-400 ease-in-out duration-1000" target="_blank" ><BiLogoLinkedinSquare className="h-full w-full"/></a>
 
-        <a href="https://leetcode.com/jmoc951/"  className="flex h-9 md:w-7 xl:w-9 hover:scale-125 hover:text-amber-400 ease-in-out duration-1000" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" id="leetcode"><path d="M22,14.355c0-0.742-0.564-1.346-1.26-1.346H10.676c-0.696,0-1.26,0.604-1.26,1.346s0.563,1.346,1.26,1.346H20.74C21.436,15.702,22,15.098,22,14.355z"></path><path d="M3.482,18.187l4.313,4.361C8.768,23.527,10.113,24,11.598,24c1.485,0,2.83-0.512,3.805-1.494l2.588-2.637c0.51-0.514,0.492-1.365-0.039-1.9c-0.531-0.535-1.375-0.553-1.884-0.039l-2.676,2.607c-0.462,0.467-1.102,0.662-1.809,0.662s-1.346-0.195-1.81-0.662l-4.298-4.363c-0.463-0.467-0.696-1.15-0.696-1.863c0-0.713,0.233-1.357,0.696-1.824l4.285-4.38c0.463-0.467,1.116-0.645,1.822-0.645s1.346,0.195,1.809,0.662l2.676,2.606c0.51,0.515,1.354,0.497,1.885-0.038c0.531-0.536,0.549-1.387,0.039-1.901l-2.588-2.636c-0.649-0.646-1.471-1.116-2.392-1.33l-0.034-0.007l2.447-2.503c0.512-0.514,0.494-1.366-0.037-1.901c-0.531-0.535-1.376-0.552-1.887-0.038L3.482,10.476C2.509,11.458,2,12.813,2,14.311C2,15.809,2.509,17.207,3.482,18.187z"></path></svg></a>
+        <a href="https://www.instagram.com/jmoc224/"  className="flex h-9 md:w-7 xl:w-9 hover:scale-125 hover:text-pink-400 ease-in-out duration-1000" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" enableBackground="new 0 0 24 24" viewBox="0 0 28 28">
+    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+</svg></a>
       </div>
       
     </div>
